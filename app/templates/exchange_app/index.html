@@ -32,6 +32,17 @@
                         </div>
                     </div>
                     <hr>
+                    {% if converted_amount %}
+                        <div class="card col-6 p-0 m-auto">
+                            <div class="card-header text-center">
+                                    <h5>Parduodame <b>{{ from_curr }}</b> Perkame
+                                        <b>{{ to_curr }}</b></h5>
+                            </div>
+                            <div class="card-body">
+                                {{ converted_amount }}
+                            </div>
+                        </div>
+                    {% endif %}
                     <div class="submit-btn mt-3">
                         <button type="submit" class="btn btn-primary">Paskaiciuoti</button>
                     </div>
