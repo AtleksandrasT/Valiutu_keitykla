@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 11:41+0300\n"
+"POT-Creation-Date: 2022-07-18 12:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,21 +25,15 @@ msgid "currency exchange"
 msgstr "valiutos keitykla"
 
 #: .\templates\exchange_app\index.html:14
-msgid "Amount*"
-msgstr "Suma*"
+msgid "amount"
+msgstr "Suma"
 
 #: .\templates\exchange_app\index.html:18
-msgid "Sell*"
-msgstr "Parduoti*"
-
-#: .\templates\exchange_app\index.html:26
-msgid "Buy*"
-msgstr "Pirkti*"
-
 #: .\templates\exchange_app\index.html:38
 msgid "Sell"
 msgstr "Parduoti"
 
+#: .\templates\exchange_app\index.html:26
 #: .\templates\exchange_app\index.html:38
 msgid "Buy"
 msgstr "Pirkti"

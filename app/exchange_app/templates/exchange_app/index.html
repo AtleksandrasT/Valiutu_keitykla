@@ -11,11 +11,11 @@
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="form-group col-md-4 mb-0">
-                            <label for="amount">{% trans "Amount*"|capfirst %}</label>
+                            <label for="amount">{% trans "amount"|capfirst %}</label>
                             <input id='amount' type="number" class="form-control" placeholder="0" {% if from_amount %} value="{{ from_amount }}" {% endif %} name="from-amount">
                         </div>
                         <div class="form-group col-md-4 mb-0">
-                            <label for="from_curr">{% trans "Sell*" %}</label>
+                            <label for="from_curr">{% trans "Sell" %}</label>
                             <select class="form-control" id="from_curr" name="from-curr" value="{{ from_curr }}">
                                 {% for curr in currencies %}
                                     <option value="{{ curr }}" {% if from_curr == curr %}selected{% endif %}>{{ curr }}</option>
@@ -23,7 +23,7 @@
                             </select>
                         </div>
                         <div class="form-group col-md-4 mb-0">
-                            <label for="to-curr">{% trans "Buy*" %}</label>
+                            <label for="to-curr">{% trans "Buy" %}</label>
                             <select class="form-control" id="to-curr" name="to-curr" value="{{ to_curr }}">
                                 {% for curr in currencies %}
                                     <option value="{{ curr }}" {% if to_curr == curr %}selected{% endif %}>{{ curr }}</option>

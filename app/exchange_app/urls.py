@@ -3,6 +3,7 @@ from .views import exchange
 
 
 urlpatterns = [
+    path('user/', include('user_menu.urls')),
     path('', exchange),
-    # path('i18n/', include('django.conf.urls.i18n')),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]
